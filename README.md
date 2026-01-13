@@ -3,7 +3,7 @@
 **A production‑style backend system that monitors, analyzes, and
 optimizes API performance in real time.**
 
-## **🚀 Overview** {#overview}
+## **🚀 Overview** 
 
 Modern backend systems suffer from:
 
@@ -17,7 +17,7 @@ Modern backend systems suffer from:
 observing API behavior, identifying bottlenecks, and generating
 actionable optimization insights.
 
-## **🎯 Key Capabilities** {#key-capabilities}
+## **🎯 Key Capabilities** 
 
 - Middleware‑based API latency tracking
 
@@ -29,7 +29,7 @@ actionable optimization insights.
 
 - Lightweight performance dashboard
 
-## **🧠 System Architecture** {#system-architecture}
+## **🧠 System Architecture** 
 
 image_group{\"aspect_ratio\":\"16:9\",\"query\":\[\"api performance
 monitoring architecture diagram\",\"dotnet middleware api monitoring
@@ -64,7 +64,7 @@ architecture\",\"redis based api optimization architecture\"\]}
 5.  **Metrics API + UI Dashboard**  
     Exposes insights for developers and operators.
 
-## **🔁 Request Lifecycle** {#request-lifecycle}
+## **🔁 Request Lifecycle** 
 
 image_group{\"aspect_ratio\":\"16:9\",\"query\":\[\"api request flow
 performance monitoring diagram\",\"api latency tracking flow
@@ -84,7 +84,7 @@ diagram\"\]}
 
 7.  Optimizer generates recommendations
 
-## **🛠️ Tech Stack** {#tech-stack}
+## **🛠️ Tech Stack** 
 
 | **Layer**        | **Technology**                   |
 |------------------|----------------------------------|
@@ -95,7 +95,7 @@ diagram\"\]}
 | Background Jobs  | Worker Service / Hangfire        |
 | Frontend         | React (Vite)                     |
 
-## **📊 Metrics Tracked** {#metrics-tracked}
+## **📊 Metrics Tracked** 
 
 - Average latency
 
@@ -105,7 +105,7 @@ diagram\"\]}
 
 - Optimization suggestions
 
-## **⚙️ Sample Endpoints** {#sample-endpoints}
+## **⚙️ Sample Endpoints** 
 
 GET /sample/fast
 
@@ -115,7 +115,7 @@ GET /metrics/slow-apis
 
 GET /metrics/suggestions
 
-## **🧪 Performance Thresholds** {#performance-thresholds}
+## **🧪 Performance Thresholds** 
 
 | Category | Latency     |
 |----------|-------------|
@@ -123,7 +123,7 @@ GET /metrics/suggestions
 | Warning  | 200--500 ms |
 | Slow     | \> 500 ms   |
 
-## **📈 Scalability Design** {#scalability-design}
+## **📈 Scalability Design** 
 
 - Stateless APIs → horizontal scaling
 
@@ -133,7 +133,7 @@ GET /metrics/suggestions
 
 - Metrics aggregation supports multi‑instance setups
 
-## **⚠️ Failure Handling** {#failure-handling}
+## **⚠️ Failure Handling**
 
 | Failure                   | Strategy                         |
 |---------------------------|----------------------------------|
@@ -141,7 +141,7 @@ GET /metrics/suggestions
 | High traffic              | Sampling‑based metric collection |
 | Analyzer failure          | Retry + isolation                |
 
-## **🔐 Security Considerations** {#security-considerations}
+## **🔐 Security Considerations**
 
 - No request payload logging
 
